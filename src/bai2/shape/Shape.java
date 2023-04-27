@@ -169,88 +169,74 @@ class Square extends Rectangle {
 }
  class TestMain {
     public static void main(String[] args) {
-        /* Test Shape class */
-        // Test constructors and toString()
-        Shape s1 = new Shape();
-        System.out.println(s1);  // toString()
-        Shape s2 = new Shape("green", false);
-        System.out.println(s2);  // toString()
-        // Test Setters and Getters
-        s1.setColor("blue");
-        s1.setFilled(true);
-        System.out.println(s1);  // toString()
-        System.out.println("Color is: " + s1.getColor());
-        System.out.println("Filled is: " + s1.isFilled());
-
-        /* Test Circle class */
-        // Test constructors and toString()
+        /* Kiểm tra lớp Circle */
+        // Kiểm tra các hàm khởi tạo và hàm toString()
         Circle c1 = new Circle();
         System.out.println(c1);
         Circle c2 = new Circle(1.1);
         System.out.println(c2);
-        Circle c3 = new Circle(2.2, "green", false);
+        Circle c3 = new Circle(2.2, "xanh lá cây", false);
         System.out.println(c3);
-        // Test Setters and Getters
-        c1.setColor("orange");  // superclass
-        c1.setFilled(true);     // superclass
+        // Kiểm tra hàm Setters và Getters
+        c1.setColor("cam");  // lớp cha
+        c1.setFilled(true);  // lớp cha
         c1.setRadius(8.8);
         System.out.println(c1);
-        System.out.println("Color is: " + c1.getColor());  // superclass
-        System.out.println("Filled is: " + c1.isFilled()); // superclass
-        System.out.println("Radius is: " + c1.getRadius());
-        System.out.printf("Area is: %.2f%n", c1.getArea());
-        System.out.printf("Perimeter is: %.2f%n", c1.getPerimeter());
+        System.out.println("Màu sắc: " + c1.getColor());  // lớp cha
+        System.out.println("Đã tô đầy: " + c1.isFilled()); // lớp cha
+        System.out.println("Bán kính: " + c1.getRadius());
+        System.out.printf("Diện tích: %.2f%n", c1.getArea());
+        System.out.printf("Chu vi: %.2f%n", c1.getPerimeter());
 
-        /* Test Rectangle class */
-        // Test constructors and toString()
+        /* Kiểm tra lớp Rectangle */
+        // Kiểm tra các hàm khởi tạo và hàm toString()
         Rectangle r1 = new Rectangle();
         System.out.println(r1);
         Rectangle r2 = new Rectangle(1.1, 2.2);
         System.out.println(r2);
-        Rectangle r3 = new Rectangle(3.3, 4.4, "green", false);
+        Rectangle r3 = new Rectangle(3.3, 4.4, "xanh lá cây", false);
         System.out.println(r3);
-        // Test setters and getters
+        // Kiểm tra hàm Setters và Getters
         r1.setWidth(5.5);
         r1.setLength(6.6);
-        r1.setColor("orange");  // superclass
-        r1.setFilled(true);     // superclass
+        r1.setColor("cam");  // lớp cha
+        r1.setFilled(true);  // lớp cha
         System.out.println(r1);
-        System.out.println("Color is: " + r1.getColor());  // superclass
-        System.out.println("Filled is: " + r1.isFilled()); // superclass
-        System.out.println("Length is: " + r1.getLength());
-        System.out.println("Width is: " + r1.getWidth());
-        System.out.printf("Area is: %.2f%n", r1.getArea());
-        System.out.printf("Perimeter is: %.2f%n", r1.getPerimeter());
+        System.out.println("Màu sắc: " + r1.getColor());  // lớp cha
+        System.out.println("Đã tô đầy: " + r1.isFilled()); // lớp cha
+        System.out.println("Chiều dài: " + r1.getLength());
+        System.out.println("Chiều rộng: " + r1.getWidth());
+        System.out.printf("Diện tích: %.2f%n", r1.getArea());
+        System.out.printf("Chu vi: %.2f%n", r1.getPerimeter());
 
-        /* Test Square class */
-        // Test constructor and toString()
+        /* Kiểm tra lớp Square */
+        // Kiểm tra các hàm khởi tạo và hàm toString()
         Square sq1 = new Square();
         System.out.println(sq1);
         Square sq2 = new Square(1.1);
         System.out.println(sq2);
-        Square sq3 = new Square(2.2, "green", false);
+        Square sq3 = new Square(2.2, "xanh lá cây", false);
         System.out.println(sq3);
-        // Test Setters and Getters
+        // Kiểm tra hàm Setters và Getters
         sq1.setSide(3.3);
-        sq1.setColor("orange");  // superclass
-        sq1.setFilled(false);    // superclass
+        sq1.setColor("cam");  // lớp cha
+        sq1.setFilled(false); // lớp cha
         System.out.println(sq1);
-        System.out.println("Color is: " + sq1.getColor());   // superclass
-        System.out.println("Filled is: " + sq1.isFilled());  // superclass
-        System.out.println("Side is: " + sq1.getSide());
+        System.out.println("Màu sắc: " + sq1.getColor());   // lớp cha
+        System.out.println("Đã tô đầy: " + sq1.isFilled());  // lớp cha
+        System.out.println("Cạnh: " + sq1.getSide());
 
-        sq1.setWidth(4.4);  // overridden
+        sq1.setWidth(4.4);  // ghi đè
         System.out.println(sq1);
-        System.out.println("Width is: " + sq1.getWidth());   // superclass
-        sq1.setLength(5.5);  // overridden
+        System.out.println("Chiều rộng: " + sq1.getWidth());  // lớp cha
+        sq1.setLength(5.5); // ghi đè
         System.out.println(sq1);
-        System.out.println("Length is: " + sq1.getLength()); // superclass
+        System.out.println("Chiều dài: " + sq1.getLength());   // lớp cha
 
-        System.out.printf("Area is: %.2f%n", sq1.getArea());
-        System.out.printf("Perimeter is: %.2f%n", sq1.getPerimeter());
-
-
+        System.out.printf("Diện tích: %.2f%n", sq1.getArea());
+        System.out.printf("Chu vi: %.2f%n", sq1.getPerimeter());
     }
-}
+    }
+
 
 

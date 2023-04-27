@@ -4,13 +4,13 @@ public abstract class Mobile {
     public void downloadApp() {
     }
 }
-class IPhone extends Mobile {
+ class IPhone extends Mobile {
     public void downloadApp() {
         System.out.println("Download from Appstore");
     }
 }
 
-class Nokia extends Mobile {
+ class Nokia extends Mobile {
     public void downloadApp() {
         System.out.println("Download from CHPlay");
     }

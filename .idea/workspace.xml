@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0617c361-c3a8-455c-80f5-35c87997b1cb" name="Changes" comment="" />
+    <list default="true" id="0617c361-c3a8-455c-80f5-35c87997b1cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bai1/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai2/Movables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai1/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai1/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai1/PeopleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai2/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai2/Mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai2/shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai2/shape/Shape.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OLrR5hvJFKhZSOynbHv1BIkio5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,14 +41,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bai1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CirleTest">
+    <configuration name="AndroidTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai1.AndroidTest" />
+      <module name="OOP2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CirleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai1.CirleTest" />
+      <module name="OOP2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testmovables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai2.Testmovables" />
+      <module name="OOP2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bai2.AndroidTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai2.AndroidTest" />
+      <module name="OOP2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="code" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai3.code" />
+      <module name="OOP2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CirleTest" />
+        <item itemvalue="Application.bai2.AndroidTest" />
+        <item itemvalue="Application.AndroidTest" />
+        <item itemvalue="Application.Testmovables" />
+        <item itemvalue="Application.code" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -33,7 +145,34 @@
       <option name="presentableId" value="Default" />
       <updated>1681350696018</updated>
       <workItem from="1681350697780" duration="3000" />
+      <workItem from="1681370587667" duration="3860000" />
+      <workItem from="1681435201054" duration="1883000" />
+      <workItem from="1681443364246" duration="1435000" />
+      <workItem from="1681457219584" duration="3452000" />
+      <workItem from="1681648175605" duration="592000" />
+      <workItem from="1681652678956" duration="1038000" />
+      <workItem from="1681694974260" duration="4000" />
+      <workItem from="1681698417641" duration="1215000" />
+      <workItem from="1681786676769" duration="847000" />
+      <workItem from="1681867560988" duration="7880000" />
+      <workItem from="1681936383142" duration="2116000" />
+      <workItem from="1681953098093" duration="9207000" />
+      <workItem from="1682039835530" duration="344000" />
+      <workItem from="1682050755669" duration="2934000" />
+      <workItem from="1682059415851" duration="1531000" />
+      <workItem from="1682232335410" duration="581000" />
+      <workItem from="1682255480649" duration="354000" />
+      <workItem from="1682382578291" duration="841000" />
+      <workItem from="1682385195272" duration="18447000" />
+      <workItem from="1682430589221" duration="575000" />
+      <workItem from="1682467834466" duration="437000" />
+      <workItem from="1682556287708" duration="1956000" />
+      <workItem from="1682560196313" duration="891000" />
+      <workItem from="1682571798416" duration="3335000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

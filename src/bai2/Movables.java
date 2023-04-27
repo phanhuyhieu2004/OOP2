@@ -7,13 +7,13 @@ public interface Movables {
     void moveRight();
 }
 
- class MovablePoint implements Movable {
+ class MovablePoints implements Movable {
     private int x;
     private int y;
     private int xSpeed;
     private int ySpeed;
 
-    public MovablePoint(int x, int y, int xSpeed, int ySpeed) {
+    public MovablePoints(int x, int y, int xSpeed, int ySpeed) {
         this.x = x;
         this.y = y;
         this.xSpeed = xSpeed;
@@ -78,5 +78,14 @@ public interface Movables {
     @Override
     public void moveRight() {
         center.moveRight();
+    }
+}
+ class Testmovables {
+    public static void main(String[] args) {
+        MovablePoint point = new MovablePoint(1, 2, 3, 4);
+        System.out.println(point.toString());
+
+        MovableCircle circle = new MovableCircle(5, 6, 7, 8, 9);
+        System.out.println(circle.toString());
     }
 }
