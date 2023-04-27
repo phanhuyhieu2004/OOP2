@@ -1,6 +1,7 @@
-package animal;
+package bai2.animal;
 
-import edible.Edible;
+import bai2.edible.Edible;
+
 public class Test2 {
     public static void main(String[] args) {
         Animal[] animals = new Animal[1];

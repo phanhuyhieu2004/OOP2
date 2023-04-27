@@ -1,4 +1,4 @@
-package shape;
+package bai2.shape;
 
 public class Shape {
     private String color;

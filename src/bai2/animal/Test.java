@@ -1,9 +1,9 @@
-package animal;
+package bai2.animal;
 
-import edible.Edible;
-import fruit.Apple;
-import fruit.Fruit;
-import fruit.Orange;
+import bai2.edible.Edible;
+import bai2.fruit.Apple;
+import bai2.fruit.Fruit;
+import bai2.fruit.Orange;
 
 
 public class Test {

@@ -1,4 +1,4 @@
-package edible;
+package bai2.edible;
 
 public interface Edible {
     String howToEat();

@@ -1,4 +1,4 @@
-package fruit;
+package bai2.fruit;
 
 public class Apple extends Fruit {
     public String howToEat() {

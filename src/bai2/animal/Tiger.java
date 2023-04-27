@@ -1,4 +1,4 @@
-package animal;
+package bai2.animal;
 
 public class Tiger extends Animal {
     public String makeSound() {
