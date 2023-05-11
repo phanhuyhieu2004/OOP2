@@ -2,7 +2,7 @@ package bai4;
 
 import java.io.File;
 
-public class CreateFileExample {
+public class CreateFile {
     public static void main(String[] args) {
         String fileName = "C:\\Users\\Dell\\IdeaProjects\\OOP2\\src\\bai4\\CreateFile.java";
         File file = new File(fileName);
