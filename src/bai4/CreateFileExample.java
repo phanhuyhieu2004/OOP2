@@ -4,7 +4,7 @@ import java.io.File;
 
 public class CreateFileExample {
     public static void main(String[] args) {
-        String fileName = "C:\\Users\\Dell\\IdeaProjects\\OOP2\\src\\bai4\\CreateFileExample.java";
+        String fileName = "C:\\Users\\Dell\\IdeaProjects\\OOP2\\src\\bai4\\CreateFile.java";
         File file = new File(fileName);
 
         // Kiểm tra xem file đã tồn tại hay chưa
