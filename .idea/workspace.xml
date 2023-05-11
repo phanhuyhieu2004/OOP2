@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0617c361-c3a8-455c-80f5-35c87997b1cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai1/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai2/Movables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai1/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai1/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai1/PeopleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai2/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai2/Mobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai2/shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai2/shape/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/bai4" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,13 +55,13 @@
       <recent name="bai1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CirleTest">
-    <configuration name="AndroidTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai1.AndroidTest" />
+  <component name="RunManager" selected="Application.CreateFileExample">
+    <configuration name="CreateFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai4.CreateFileExample" />
       <module name="OOP2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai1.*" />
+          <option name="PATTERN" value="bai4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CirleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai1.CirleTest" />
+    <configuration name="FileReadWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai4.FileReadWrite" />
       <module name="OOP2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai1.*" />
+          <option name="PATTERN" value="bai4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testmovables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai2.Testmovables" />
+    <configuration name="SinhVien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai4.SinhVien" />
       <module name="OOP2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai2.*" />
+          <option name="PATTERN" value="bai4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai2.AndroidTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai2.AndroidTest" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai4.main" />
       <module name="OOP2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai2.*" />
+          <option name="PATTERN" value="bai4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="code" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai3.code" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai4.main" />
       <module name="OOP2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai3.*" />
+          <option name="PATTERN" value="bai4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CirleTest" />
-        <item itemvalue="Application.bai2.AndroidTest" />
-        <item itemvalue="Application.AndroidTest" />
-        <item itemvalue="Application.Testmovables" />
-        <item itemvalue="Application.code" />
+        <item itemvalue="Application.CreateFileExample" />
+        <item itemvalue="Application.SinhVien" />
+        <item itemvalue="Application.main (1)" />
+        <item itemvalue="Application.FileReadWriteExample" />
+        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +163,18 @@
       <workItem from="1682467834466" duration="437000" />
       <workItem from="1682556287708" duration="1956000" />
       <workItem from="1682560196313" duration="891000" />
-      <workItem from="1682571798416" duration="3335000" />
+      <workItem from="1682571798416" duration="5098000" />
+      <workItem from="1682597422035" duration="587000" />
+      <workItem from="1682641142460" duration="971000" />
+      <workItem from="1682649373913" duration="641000" />
+      <workItem from="1682772430495" duration="978000" />
+      <workItem from="1683162770632" duration="407000" />
+      <workItem from="1683596058077" duration="14225000" />
+      <workItem from="1683639104291" duration="1469000" />
+      <workItem from="1683677262178" duration="4929000" />
+      <workItem from="1683726405262" duration="2719000" />
+      <workItem from="1683763592458" duration="1892000" />
+      <workItem from="1683767895931" duration="2001000" />
     </task>
     <servers />
   </component>
