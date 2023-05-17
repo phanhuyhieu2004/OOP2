@@ -57,8 +57,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.CreateFileExample">
-    <configuration name="CreateFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai4.CreateFileExample" />
+    <configuration name="CreateFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai4.CreateFile" />
       <module name="OOP2" />
       <extension name="coverage">
         <pattern>
