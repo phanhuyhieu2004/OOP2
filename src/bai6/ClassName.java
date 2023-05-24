@@ -1,11 +1,10 @@
 package bai6;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
 
 import java.util.Scanner;
 
-public class ClassNameValidator {
+public class ClassName{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập tên lớp học: ");

@@ -3,7 +3,7 @@ package bai4;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class FileWriteExample {
+public class FileWrite {
     public static void main(String[] args) {
         // Chuỗi dữ liệu cần lưu vào tệp văn bản
         String data = "Xon chào!";
