@@ -3,7 +3,7 @@ package bai4;
 import java.io.*;
 import java.util.Scanner;
 
-public class TH_ReadFileExample {
+public class TH_ReadFile {
     public void readFileText(String filePath){
 
         try {
@@ -37,7 +37,7 @@ public class TH_ReadFileExample {
         Scanner scanner = new Scanner(System.in);
         String path = scanner.nextLine();
 //Tạo 1 đối tượng path để in ra số
-        TH_ReadFileExample readfileEx = new TH_ReadFileExample();
+        TH_ReadFile readfileEx = new TH_ReadFile();
         readfileEx.readFileText(path);
 
     }

@@ -45,5 +45,5 @@ class Main {
 
     }
 }
-//    Lớp Main có phương thức main() là điểm bắt đầu để thực thi chương trình. Trong phương thức main(), đầu tiên chúng ta tạo một đối tượng ArrayExample và gọi phương thức createRandom() để tạo một mảng ngẫu nhiên. Sau đó, chương trình yêu cầu người dùng nhập chỉ số của một phần tử trong mảng và sử dụng câu lệnh scanner.nextInt() để đọc giá trị được nhập vào.
+//    Lớp bai5.Main có phương thức main() là điểm bắt đầu để thực thi chương trình. Trong phương thức main(), đầu tiên chúng ta tạo một đối tượng ArrayExample và gọi phương thức createRandom() để tạo một mảng ngẫu nhiên. Sau đó, chương trình yêu cầu người dùng nhập chỉ số của một phần tử trong mảng và sử dụng câu lệnh scanner.nextInt() để đọc giá trị được nhập vào.
 //        Tiếp theo, chúng ta sử dụng câu lệnh arr[x] để lấy giá trị của phần tử có chỉ số x trong mảng arr, và in giá trị đó ra màn hình. Nếu chỉ số x vượt quá giới hạn của mảng, chương trình sẽ ném ra một ngoại lệ IndexOutOfBoundsException, và chúng ta bắt ngoại lệ đó bằng cách sử dụng câu lệnh catch để in ra thông báo lỗi "Chỉ số vượt quá giới hạn của mảng".
