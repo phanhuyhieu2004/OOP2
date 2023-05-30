@@ -5,30 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0617c361-c3a8-455c-80f5-35c87997b1cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jjj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/bai4/LayThongTinVaDuyetThuMuc.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/bai4/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai5/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai5/TH3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai5/student.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai6/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai6/ClassNameValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai6/CrawlSong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai6/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai6/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai6/ClassName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai3/ArrayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai3/ArrayExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai3/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai3/MyException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bai4/CreateFileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai4/CreateFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bai4/FileWriteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai4/FileWrite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bai4/TH_ReadFileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai4/TH_ReadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bai4/Vi_du_tao_tap_tin_va_thu_muc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai4/Vi_du_tao_tap_tin_va_thu_muc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai5/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai5/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai5/data.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai5/person.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai5B/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai5/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai5/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai5/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai5/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai5/TH1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai5/TH1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai5/TH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai5/TH2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai5/TH3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai5/TH3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai6/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai6/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai6/ClassNameValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai6/CrawlSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai6/CrawlSong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai6/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai6/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai6/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai6/PhoneNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +222,7 @@
       <workItem from="1684832794648" duration="501000" />
       <workItem from="1684851330064" duration="442000" />
       <workItem from="1684885537601" duration="8204000" />
-      <workItem from="1684920165622" duration="1382000" />
+      <workItem from="1684920165622" duration="1664000" />
     </task>
     <servers />
   </component>
